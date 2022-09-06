@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 .container{
-    border: 3px solid black;
+    border: 2px solid black;
+    margin: 20px auto;
+    max-width: 270px;
+    padding: 0 7px;
+}
+
+.bold{
+    font-weight: 800;
 }
 
 html{
@@ -8,14 +18,26 @@ html{
 }
 
 .divider{
-    border-bottom: 1px solid black;
-    margin: 2px;
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
 }
 
 header h1{
-    font-weight: 800;
-    letter-spacing: 0.18px;
-    margin: 0 auto;
+    letter-spacing: 0.15px;
+    margin: -4px 0;
     text-align: center;
+    padding: 0;
 }
 
+p{
+    margin: 0;
+}
+
+.right{
+    float: right;
+}
+
+.lg{
+    height: 10px;
+    background-color: black;
+}
