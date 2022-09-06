@@ -1,0 +1,21 @@
+.container{
+    border: 3px solid black;
+}
+
+html{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.divider{
+    border-bottom: 1px solid black;
+    margin: 2px;
+}
+
+header h1{
+    font-weight: 800;
+    letter-spacing: 0.18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
