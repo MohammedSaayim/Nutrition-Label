@@ -4,7 +4,7 @@
 .container{
     border: 2px solid black;
     margin: 20px auto;
-    max-width: 270px;
+    width: 270px;
     padding: 0 7px;
 }
 
@@ -13,20 +13,23 @@
 }
 
 html{
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
 }
 
 .divider{
     border-bottom: 1px solid #888989;
     margin: 2px 0;
+    clear: right;
 }
 
 header h1{
     letter-spacing: 0.15px;
     margin: -4px 0;
     text-align: center;
-    padding: 0;
 }
 
 p{
@@ -37,7 +40,46 @@ p{
     float: right;
 }
 
+.lg, .md{
+    background-color: black;
+    border: 0;
+}
 .lg{
     height: 10px;
-    background-color: black;
+}
+
+.sm-text{
+    font-size: 0.85rem;
+}
+
+.calories-info h1{
+    margin: -5px -2px;
+    overflow: hidden;
+}
+
+.md{
+    height: 5px;
+}
+
+.indent{
+    margin-left: 1em;
+}
+
+.dbl-indent{
+    margin-left: 2em;
+}
+
+.calories-info span{
+    font-size: 1.2em;
+    margin-top: -7px;
+}
+
+.note{
+    font-size: 0.6rem;
+    text-indent: -8px;
+    margin: 5px 0;
+    padding: 0 8px;
+}
+
+.note span{
 }
